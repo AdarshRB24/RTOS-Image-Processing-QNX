@@ -6,7 +6,6 @@ This project demonstrates multithreaded image processing using POSIX threads on 
 
 It implements a complete pipeline including image loading, negative transformation, and Gaussian blurring using synchronized threads.
 
----
 
 ## Features
 
@@ -17,7 +16,6 @@ It implements a complete pipeline including image loading, negative transformati
 * Gaussian blur using a 5×5 kernel
 * Sequential pipeline execution using thread coordination
 
----
 
 ## Architecture
 
@@ -25,7 +23,6 @@ It implements a complete pipeline including image loading, negative transformati
 * Thread 2 → Performs negative transformation
 * Thread 3 → Performs Gaussian blur
 
----
 
 ## How to Run
 
@@ -33,7 +30,6 @@ It implements a complete pipeline including image loading, negative transformati
 2. Place input image at `/tmp/input1.pgm`
 3. Compile and run the program
 
----
 
 ## My Contribution
 
@@ -41,5 +37,3 @@ It implements a complete pipeline including image loading, negative transformati
 * Implemented synchronization using mutex and condition variables
 * Developed image processing functions (negative and Gaussian blur)
 * Tested the system on QNX RTOS
-
----
